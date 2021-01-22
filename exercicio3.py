@@ -4,7 +4,6 @@ ipList = []
 portList = []
 
 ipListFile = open("ip.txt", "w")
-
 portListFile = open("port.txt", "w")
 
 for ip in range(1, 256):
@@ -16,5 +15,4 @@ for port in range(1, 1025):
     portListFile.write(str(port) + '\n')
 
 ipListFile.close()
-
 portListFile.close()
