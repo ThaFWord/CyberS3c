@@ -10,15 +10,13 @@ for i in x:
     if i != "solaris":
         print(i)
         file.write(str(i) + '\n')
-        
-file.close()
 
-file = open("resultado1.txt", "a")
+
 print("\n")
+file.write("\n")
     
 print("While loop" "\n" )
 file.write('\n' + "While loop" + '\n')
-
 
 idx = 0
 while idx < len(x):
