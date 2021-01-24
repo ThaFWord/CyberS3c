@@ -33,7 +33,6 @@ def portScanner(ip, port):
         print("Ocorreu um erro")
         sys.exit()
 
-
 t0 = datetime.datetime.now()
 if __name__ == "__main__":
     thread_lock = threading.Lock()
