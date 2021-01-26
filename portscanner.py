@@ -46,8 +46,6 @@ if __name__ == "__main__":
         x.deamon = True
         x.start()
         x.join()
-        
-    for item in range(1025):
         q.put(item)
         
 t1 = datetime.datetime.now() - t0
