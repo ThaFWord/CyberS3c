@@ -57,5 +57,6 @@ def main():
         sys.exit()
     else:
         print("Escolhe uma opçao valida")
+        main()
 
 main()
