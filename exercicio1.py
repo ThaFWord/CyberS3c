@@ -1,12 +1,19 @@
 #!/usr/bin/python3
 
-def segparahoras(segundos):
-    a=str(segundos//3600)
-    b=str((segundos%3600)//60)
-    c=str((segundos%3600)%60)
-    d=["{} horas {} minutos {} segundos".format(a, b, c)]
-    return d
-
-seg = int(input("Quantos segundos das? "))
-
-print(segparahoras(seg))
+#logicos
+a = 3
+b = 6
+print(a, b)
+#aritmeticos
+c = a + b
+print(c)
+#relacionais
+d = a < b
+print(d)
+#binario
+print(bin(a) + bin(b))
+#identidade
+print(b is a)
+#associacao
+list= [1,2,3,4.5]
+print("5" in list)
